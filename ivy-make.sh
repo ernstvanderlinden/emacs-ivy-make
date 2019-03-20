@@ -45,7 +45,4 @@ s/\(;;.URL:.https:\/\/github.com\/abo-abo\/\).\+$/\1helm-make/g
 s/\(;;;.ivy-make\.el.\+\)helm$/\1ivy/g ;
 " -i ivy-make.el 
 
-# s/;;.\(URL:.https:\/\/github.com\/abo-abo\/\).\+$/;; Author-\1helm-make\n\
-# ;; URL: https:\/\/github.com\/ernstvanderlinden\/ivy-make/g
-
 echo -n "done."
